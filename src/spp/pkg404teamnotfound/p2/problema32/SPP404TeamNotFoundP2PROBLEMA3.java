@@ -1,4 +1,10 @@
-
+/*
+Elver Iram Jiménez Rodríguez A01196327
+Luis Mario de Leija Piñón         A01410385
+Luis  Montiel Rocha                 A01410588
+Pablo Serrano Hernandez        A01410753
+Rubén Daniel Baez Muñíz        A01411504
+*/
 package spp.pkg404teamnotfound.p2.problema32;
 
 import  java.util.Scanner;
@@ -6,7 +12,7 @@ import  java.util.Scanner;
 public class SPP404TeamNotFoundP2PROBLEMA3 {
 
      public static void main(String[] args) {
-      
+         System.out.println("Bienvenido");
          matriz();
      
      }
@@ -28,8 +34,8 @@ public class SPP404TeamNotFoundP2PROBLEMA3 {
         mostrarArray(A);
          System.out.println("int to '*' : ");
         for (int i = 0; i < A.length; i++){
-            System.out.println();
-            for (int j = 0; j < A[0].length; j++){
+            
+            for (int j = 0; j < A[i].length; j++){
                 for(int k=1;k<=A[i][j];k++){
                     System.out.print("*");
                 }
@@ -40,10 +46,9 @@ public class SPP404TeamNotFoundP2PROBLEMA3 {
         
         }
 
-    
 
-    
-    public static int solicitaDatos(){
+
+     public static int solicitaDatos(){
         Scanner kb=new Scanner(System.in);
         boolean flag;
         int num=0;
